@@ -4,6 +4,8 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'com.github.PavelScherbakov'
+
 android {
     compileSdkVersion 30
 
@@ -65,7 +67,7 @@ dependencies {
 
 
 
-afterEvaluate {
+/*afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
@@ -89,4 +91,4 @@ afterEvaluate {
             }
         }
     }
-}
+}*/
