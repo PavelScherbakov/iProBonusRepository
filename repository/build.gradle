@@ -80,8 +80,7 @@ dependencies {
 }
 
 
-
-/*afterEvaluate {
+afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
@@ -90,8 +89,8 @@ dependencies {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'ru.pscher.android.test'
-                artifactId = 'repository-release'
+                groupId = 'com.github.PavelScherbakov'
+                artifactId = 'iProBonusRepository-release'
                 version = '1.0'
             }
             // Creates a Maven publication called “debug”.
@@ -99,10 +98,10 @@ dependencies {
                 // Applies the component for the debug build variant.
                 from components.debug
 
-                groupId = 'ru.pscher.android.test'
-                artifactId = 'repository-debug'
+                groupId = 'com.github.PavelScherbakov'
+                artifactId = 'iProBonusRepository-debug'
                 version = '1.0'
             }
         }
     }
-}*/
+}
